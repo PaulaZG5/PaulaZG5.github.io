@@ -1,0 +1,26 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+   
+}
+
+h2{
+    font-family: serif;
+    
+}
+
+img {
+  width: 20%;
+}
+
+.blur{
+    filter: blur(3px);
+}
+
+.foto3{
+    background-color: black;
+}
+
+img:hover{
+    filter: none;
+}
