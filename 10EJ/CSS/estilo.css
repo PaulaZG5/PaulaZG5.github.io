@@ -1,3 +1,9 @@
+.centro{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+   
+}
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
@@ -9,30 +15,20 @@ h2{
     
 }
 
-img {
-  width: 20%;
-}
 
-.img1{
-    width: 10%;
-}
+
 .blur{
     filter: blur(3px);
 }
 
-.foto3{
+.png{
     background-color: black;
-    width: 13%;
 }
 
-.img4{
-    width: 9.5%;
-}
+.img {
+    height: 300px;
+  }
 
 img:hover{
     filter: none;
-}
-
-.gif{
-    width: 15%;
 }
