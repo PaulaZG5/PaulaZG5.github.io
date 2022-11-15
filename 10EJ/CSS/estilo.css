@@ -1,12 +1,23 @@
-.centro{
+/* .container{
     display:flex;
     flex-wrap: wrap;
     align-items: stretch;
    
+} */
+
+.bloque{
+    display: flex;
+   justify-content: space-around;
 }
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
+    font-size: 350px;
+    margin: 0%;
+    text-align: center;
+    color: gray;
+
    
 }
 
@@ -21,12 +32,10 @@ h2{
     filter: blur(3px);
 }
 
-.png{
-    background-color: black;
-}
+
 
 .img {
-    height: 300px;
+    height: 400px;
   }
 
 img:hover{
