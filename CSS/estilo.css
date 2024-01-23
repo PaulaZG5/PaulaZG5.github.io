@@ -1,16 +1,98 @@
-.container{
-    position: relative;
-  text-align: center;
-  color: black;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #000000;
+    margin: 0;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+nav {
+    margin-top: 10px;
+}
+.navbar{
+    background: url('../img/pexels-victoria-boiko-15871752.jpg') center center fixed; /
+            background-size: cover; 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+
+            }
+
+
+.navbar-brand,
+.navbar-nav {
+    text-align: center;
 }
 
-.top-rigth{
-    position: 
+.navbar-brand {
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    
 }
+
+.navbar-nav {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    width: 25%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nav-link {
+    color: #fff;
+    text-align: center;
+    text-decoration: none; /* Quitar subrayado */
+    display: block; /* Para que ocupe toda la anchura del contenedor */
+    padding: 0.5rem 1rem; /* Añadir un poco de espacio alrededor del enlace */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #fff; /* Mantener el color al pasar el ratón o enfocar */
+    background-color: transparent; /* Evitar el cambio de color de fondo */
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #000000;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+

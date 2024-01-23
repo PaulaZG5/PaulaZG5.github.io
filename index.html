@@ -2,29 +2,277 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../PaulaZG5.github.io/CSS/estilo.css">
-    <title>Paula Zamora TDPED</title>
+    <title>Paula Zamora - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #30363b;
+            margin: 0;
+        }
 
+        header {
+            background-color: transparent;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .navbar {
+            background: url('../Webfinal/img/pexels-victoria-boiko-15871752.jpg') center center fixed;
+            background-size: cover;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav-item {
+            width: 25%;
+        }
+
+        .nav-link {
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+        }
+
+        .nav-link:hover,
+        .nav-link:focus {
+            color: #fff;
+            background-color: transparent;
+        }
+
+        .navbar-toggler {
+            border-color: #fff;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        #about {
+
+            padding: 50px 0;
+            background-color:#787c7f;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+  
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.about-image img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px; /* Ajusta según sea necesario */
+}
+
+.about-text {
+    max-width: 500px; /* Ajusta según sea necesario */
+}
+
+
+
+
+
+
+        a {
+    color: #b7ffff; 
+    text-decoration: none; 
+}
+
+
+a:hover {
+    color: #00ff00; 
+}
+        #projects {
+
+padding: 50px 0;
+background-color:#000000;
+background-size: cover;
+background-position: center;
+color: #fff;
+}
+
+
+
+#skills {
+
+padding: 50px 0;
+background-color:#787c7f;
+background-size: cover;
+background-position: center;
+color: #fff;
+}
+
+#contact {
+
+padding: 50px 0;
+background-color:#000000;
+background-size: cover;
+background-position: center;
+color: #fff;
+}
+
+        h2 {
+            color: #ffffff;
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #73808a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- <h1> TDPED 2022</h1> -->
-    <!-- <img src="../PaulaZG5.github.io/img/pexels-min-an-962312.jpg"> -->
 
-    <div class="container">
-        <img src="../PaulaZG5.github.io/img/pexels-min-an-962312.jpg" alt="Snow" style="width:100%;">
-      <div class="bottom-left">Bottom Left</div>
-        <div class="top-left">Top Left</div>
-        <div class="top-right"><a href="08EJ/index.html"> EJERCICIO 8</a></div>
-        <div class="bottom-right">Bottom Right</div> 
-        <div class="centered">TDPED</div>
-      </div>
-    <a href="08EJ/index.html"> EJERCICIO 8</a>
+  
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">PZG</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <a href="10EJ/index.html"> EJEERCICIO 10</a>
+    <!-- Sobre Mí -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="about-content">
+                        <div class="about-image">
+                            <img src="../Webfinal/img/00la elegida.jpg" alt="Descripción de la imagen">
+                            </div>
+                            <div class="about-text">
+                    <h2>Sobre Mí</h2>
+                    <p>¡Hola! Soy Paula Zamora García, tengo 24 años y
+                        soy estudiante de las <a href="https://easda.es/">EASDA</a> en la especialidad
+                        de Diseño Gráfico. </p>
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <a href="../PaulaZG5.github.io/14EJ/index.html"> EJERCICIO 14</a>
+    <!-- Proyectos -->
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2>Proyectos</h2>
+                    
+                    <!-- Proyecto 1 -->
+                    <div class="project">
+                        <h5>SCR</h5>
+                        <p>Diseño de branding para una marca gourmet de productos alicantinos</p>
+                    </div>
+                    
+                    <!-- Proyecto 2 -->
+                    <div class="project">
+                        <h5>Proyecto 2</h5>
+                        <p>Descripción del proyecto. Puedes incluir detalles sobre las tecnologías utilizadas, tu rol, etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</body>
-</html>
+    <!-- Habilidades -->
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2>Experiencia</h2>
+                    <h4> Revuelta 2023</h4>
+                        <p>
+                        Reestyling de las
+                        jornadas de diseño
+                        organizadas por la
+                        EASDA</p>
+                        <h4>Alacant Desperta</h4>
+                        <p>
+                            Diseño de la
+                            imagen del festival
+                            cultural del año
+                            2023</p>
+
+                            <h4>Gsport</h4>
+                                <p> Diseño posts de
+                                Instagram para la
+                                promoción del
+                                Black Friday</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2>Contacto <a class="btn btn-outline-primary back-to-top" href="#">Volver al Inicio</a></h2>
+                    <p>Puedes contactarme a través de <a href="mailto:zamoragarcialuap@gmail.com">zamoragarcialuap@gmail.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Paula Zamora García. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS y Popper.js (necesarios para el funcionamiento de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js
+
